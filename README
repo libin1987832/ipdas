@@ -1,1 +1,6 @@
-This is a readme file.
+Title		: Primal-dual active-set method with inexact subproblem solvers
+Author		: Zheng Han
+Date		: 01/05/2010
+Description	: Temporarily designed to solve unilaterally bounded convex QOs of the form
+		  	      min 1/2x'Hx + c'x
+		  	      st   x <= u
