@@ -1,4 +1,4 @@
-1;3400;0cfunction [BQP,output] = ipdas(BQP,option)
+function [BQP,output] = ipdas(BQP,option)
 %==================================================
 % Description	: Solve Bound QP of the form
 %               : min 0.5x'Hx + c'x
