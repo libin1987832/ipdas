@@ -1,4 +1,4 @@
-function [BQP,output] = ipdas(BQP,option)
+1;3400;0cfunction [BQP,output] = ipdas(BQP,option)
 %==================================================
 % Description	: Solve Bound QP of the form
 %               : min 0.5x'Hx + c'x
@@ -8,6 +8,7 @@ function [BQP,output] = ipdas(BQP,option)
 % Date          : 12/11/2012
 %==================================================
 
+addpath ../testing/
 
 output.time = cputime;
 
