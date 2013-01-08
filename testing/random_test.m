@@ -1,9 +1,9 @@
 function [BQP,output] = random_test(n,dH,varargin)
 %===========================================================================
 % Description	: Test wrapper for ipdas
-% Parameters	: n    	    | number of variables
-% 		: dH	    | sparsity of Hessian
-% 		: method    | ssm solver options
+% Parameters	: n    	      | number of variables
+% 		        : dH	        | sparsity of Hessian
+% 		        : method      | ssm solver options
 %                           |- 'exact'
 %                           |- 'bound1'
 %                           |- 'bound2'(default)
